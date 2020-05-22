@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-<body>
-    <h2 class="blue-text">Hello, I'm a cat!</h2>
-    <p>Click here to view more <a href="#">cat photos</a>.</p>
+<title>
+    Mini Blog
+</title>
 
-    <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="substract.js"> </script>
+</head>
+
+<body>
+    <h2 class="blue-text">Hello, I'm a MOSFET!</h2>
+    <p>Click here to view more <a href="#">MOSFET photos</a>.</p>
+
+    <img src="mosfet.png" alt="MOSFET pi Model" />
+
 
     <div class="blue-text">
-        <p>Things cats love:</p>
+        <p>Things MOSFET love:</p>
         <ul>
-            <li>Ngerjain Soal Laplace Transform</li>
-            <li>Ngoding Tugas Besar PPMC</li>
-            <li>Ujian Ulang Elektronika (gadeng) </li>
+            <li>Nongkrong sama temen sekawan CMOS</li>
+            <li>Gak ada efek kapasitansi</li>
+            <li>Model T</li>
         </ul>
-        <p>Top 3 things cats hate:</p>
+        <p>Top 3 things MOSFETs hate:</p>
         <ol>
             <li>Dapet Nilai dibawah A</li>
             <li>Dosen yang Ngeribetin</li>
-            <li>Gak ada tempat berak yang PEWE</li>
+            <li>DIKASIH ARUS GATE</li>
         </ol>
     </div>
 
-    <form action="/submit-cat-photo">
-        <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-        <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-        <label><input type="checkbox" name="personality" checked> Loving</label>
-        <label><input type="checkbox" name="personality"> Lazy</label>
-        <label><input type="checkbox" name="personality"> Energetic</label><br>
-        <input type="text" placeholder="cat photo URL" required>
-        <button type="submit">Submit</button>
-    </form>
-</body>
+    <div class="blue-text" style="text-align:center;">
+        <b>Gate-Source Voltage Calculator</b>
+    </div>
 
+    <form action="" name="Vgs_Calculator">
+
+        <div class="VG">
+            VG : <input type="text" placeholder="Gate Voltage" id ="VG" name ="VG" required>
+        </div>
+        <div class="VS">
+            VS : <input type="text" placeholder="Source Voltage" id ="VS" name ="VS" required>
+        </div>
+
+        <button style="margin-left:20px;" type="button" onclick="substract()">Submit</button>
+
+    </form>
+
+    <div id="resultjs" class="result">
+     
+    </div>
+
+</body>
 </html>

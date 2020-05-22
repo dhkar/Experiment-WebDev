@@ -1,18 +1,34 @@
 body {
     background-color: lightyellow;
+    
 }
-
+.VG{
+    padding: 10px 10px 10px 10px;
+    margin : 20px 20px 20px 20px;
+    border: 2px solid mediumpurple;
+}
+.VS{
+    padding: 10px 10px 10px 10px;
+    margin : 20px 20px 20px 20px;
+    border: 2px solid seagreen;
+}
 .blue-text {
     color: blue;
 }
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+    /* width: 50%; */
 }
 
 p {
     color: red;
+}
+
+.result{
+    color: lightcoral;
+    padding: 10px 10px 10px 10px;
+    margin : 20px 20px 20px 20px;
+    border: 2px solid aquamarine;
 }
